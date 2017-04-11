@@ -1,0 +1,245 @@
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+#middle{
+    width:500px;
+    padding-bottom: 100px;
+    border:1px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.one{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.quan{
+    width:15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color:#fff;
+    border:1px solid red;
+    border-radius:50%;
+    position: relative;
+    top:70px;
+    left:15px;
+    cursor: pointer;
+}
+
+.picture{
+    width:120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background:goldenrod;
+    float:left;
+    margin-left: 100px;
+}
+
+.text{
+    width:170px;
+    height: 112px;
+    font-size: 16px;
+    padding-top: 8px;
+    float:right;
+    margin-right: 100px;
+}
+
+.left,.right{
+    float:left;
+    width:25px;
+    height: 25px;
+    font-size: 18px;
+    border:1px solid red;
+    position: relative;
+    top:35px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.num{
+    float:left;
+    width:25px;
+    height: 25px;
+    font-size: 18px;
+    border:1px solid red;
+    position: relative;
+    top:35px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.result{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    border-top:2px solid brown;
+    position: absolute;
+    bottom: 0px;
+}
+
+.allText{
+    float: left;
+    font-size:16px ;
+    padding-left: 10px;
+}
+
+.all{
+    width:15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color:#fff;
+    border:1px solid red;
+    border-radius:50%;
+    float: left;
+    cursor: pointer;
+    margin-top:17px;
+    margin-left: 10px;
+}
+
+.money{
+    float:right;
+    width:160px;
+    height: 100%;
+}
+
+.rmb{
+    font-size: 20px;
+    float: left;
+}
+
+span.price{
+    margin-left: 5px;
+}
+
+.btn{
+    width:100px;
+    height: 100%;
+    text-align: center;
+    background:brown;
+    color:#fff;
+    font-size: 18px;
+    line-height: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+#maskphoto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background:#000;
+    opacity: 0.6;
+    z-index: 99;
+    display: none;
+}
+
+.alert{
+    width:0;
+    height: 0;
+    position: fixed;
+    left:50%;
+    right:50%;
+    top:50%;
+    bottom: 50%;
+    z-index:100;
+}
+
+.alert2{
+    width:300px;
+    height: 160px;
+    border:1px solid brown;
+    border-radius: 5px;
+    margin-left: -150px;
+    margin-top: -80px;
+    background:#fff;
+    display: none;
+}
+
+.mmText{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    padding-top: 30px;
+}
+
+.bottom{
+    width:90%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.btnLeft{
+    width:100px;
+    height: 40px;
+    float:left;
+    background: brown;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.btnRight{
+    width:100px;
+    height: 40px;
+    float:right;
+    background: brown;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.delect{
+    width:50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    border-radius:5px;
+    border:1px solid black;
+    background:brown;
+    position: absolute;
+    right:10px;
+    top:30px;
+    cursor: pointer;
+    display: none;
+}
+
+#bianji{
+    width: 100%;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+#bianji span{
+    width:40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    background:brown;
+    float:right;
+    cursor: pointer;
+    color:#fff;
+}
